@@ -1,0 +1,17 @@
+{
+    "name": "Oneapp Dev Environment",
+    "image": "mcr.microsoft.com/devcontainers/javascript-node:20",
+    "extensions": [
+      "ritwickdey.LiveServer"
+    ],
+    "forwardPorts": [5500],
+    "postCreateCommand": "code index.html",
+    "customizations": {
+      "vscode": {
+        "settings": {
+          "liveServer.settings.port": 5500
+        }
+      }
+    }
+  }
+  
