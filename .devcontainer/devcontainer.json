@@ -6,6 +6,7 @@
     ],
     "forwardPorts": [5500],
     "postCreateCommand": "code index.html",
+    "postStartCommand": "npx live-server --port=5500 --quiet",
     "customizations": {
       "vscode": {
         "settings": {
